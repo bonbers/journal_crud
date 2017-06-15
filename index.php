@@ -58,6 +58,7 @@
 				<span>
 				<a class="btn btn-info" href="edit.php?edit_id=<?php echo $row['id']; ?>" title="click for edit" onclick="return confirm('Sur de modifier ?')"><span class="glyphicon glyphicon-edit"></span> Edit</a>
 				<a class="btn btn-danger" href="?delete_id=<?php echo $row['id']; ?>" title="click for delete" onclick="return confirm('Sur de supprimer?')"><span class="glyphicon glyphicon-remove-circle"></span> Delete</a>
+				<a class="btn btn-info" href="com.php?id=<?php echo $row['id']; ?>" title="click for com" onclick="return confirm('laissez un com ?')"><span class="glyphicon glyphicon-edit"></span> Com </a>
 				</span>
 				</p>
 			</div>
